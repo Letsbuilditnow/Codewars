@@ -9,5 +9,5 @@
 
 function mouthSize(animal) {
     // code here
-    return animal=="alligator"?'small':"wide";
+    return animal.toLowerCase()=="alligator"?'small':"wide";
   }
