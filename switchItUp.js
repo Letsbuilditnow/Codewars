@@ -16,7 +16,8 @@
 function switchItUp(number){
     //Write your own Code!
       switch(number){
-          
+          case 0:
+            return "Zero"
         case 1:
           return "One"
         break;
