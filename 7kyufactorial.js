@@ -1,7 +1,7 @@
 // Your task is to write function factorial.
 function factorial(n){
     //your code here
-    return factorial =1;
+    let factorial =1;
     if(n==0){
       return  1
     } else if(n>1){
