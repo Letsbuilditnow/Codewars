@@ -39,6 +39,6 @@ function exponent(a,b){
     return Math.pow(a,b)
 }
     
-function subt(a,b){
+function subtract(a,b){
     return a-b
 }
