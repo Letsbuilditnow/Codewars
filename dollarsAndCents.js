@@ -11,3 +11,16 @@
 // 3.1 needs to become $3.10
 
 // Good luck! Your team knows they can count on you!
+
+
+function formatMoney(amount){
+    // your formatting code here
+  //   P:convert the amount to dollars along with zeroes
+  //   R:return the converted dollar
+  //   E:3 => $3.00
+  //     3.1 => $3.10
+  //   P:by using the to fixed method set the floating point numbers to twoit to 
+  //     :add the dollar symbol using literal notation infront of it and return it
+    return `$${amount.toFixed(2)}`
+    
+  }
